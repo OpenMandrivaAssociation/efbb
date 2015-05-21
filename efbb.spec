@@ -22,6 +22,9 @@ BuildRequires:  pkgconfig(efreet)
 BuildRequires:  pkgconfig(eina)
 BuildRequires:  pkgconfig(libcanberra)
 BuildRequires:  pkgconfig(enlightenment)
+BuildRequires:	python-parser
+BuildRequires:	geneet
+
 
 Requires:       e
 
