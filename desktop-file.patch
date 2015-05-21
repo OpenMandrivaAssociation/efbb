@@ -1,0 +1,8 @@
+--- efbb/data/desktop/efbb.desktop~	2015-05-17 23:48:43.000000000 +0100
++++ efbb/data/desktop/efbb.desktop	2015-05-21 13:28:24.440297728 +0100
+@@ -12,4 +12,4 @@
+ Icon=efbb
+ Terminal=false
+ Type=Application
+-Categories=Game;LogicGame;Enlightenment;
++Categories=Game;LogicGame;
