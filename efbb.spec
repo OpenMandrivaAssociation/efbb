@@ -3,7 +3,7 @@
 Summary:	Simple and robust network communication layer on top of UDP
 Name:		efbb
 Version:	%{gitdate}
-Release:	1
+Release:	0.1
 Source0:	%{name}-%{version}.tar.xz
 Patch0:		desktop-file.patch
 Source100:	%{name}.rpmlintrc
