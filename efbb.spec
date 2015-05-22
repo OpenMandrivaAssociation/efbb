@@ -1,6 +1,6 @@
 %define gitdate 20150521
 
-Summary:	Simple and robust network communication layer on top of UDP
+Summary:	Escape from Booty Bay a game that explores the EPhysics features
 Name:		efbb
 Version:	%{gitdate}
 Release:	0.1
@@ -29,6 +29,7 @@ BuildRequires:	geneet
 Requires:       e
 Requires:	efl
 Requires:	geneet
+Requires:	etrophy
 
 %description
 Escape from Booty Bay is a physics game that explore EPhysics amazing features
