@@ -14,7 +14,7 @@ URL:		https://git.enlightenment.org/games/efbb.git
 BuildRequires:  edje
 BuildRequires:  pkgconfig(elementary)
 BuildRequires:  pkgconfig(evas)
-BuildRequires:  pkgconfig(ecore)
+BuildRequires:  pkgconfig(efl)
 BuildRequires:  pkgconfig(edje)
 BuildRequires:  pkgconfig(ephysics)
 BuildRequires:  pkgconfig(etrophy)
@@ -27,6 +27,7 @@ BuildRequires:	geneet
 
 
 Requires:       e
+Requires:	efl
 Requires:	geneet
 
 %description
