@@ -29,7 +29,7 @@ BuildRequires:	geneet
 Requires:       e
 Requires:	efl
 Requires:	geneet
-Requires:	etrophy
+Requires:	libetrophy0
 
 %description
 Escape from Booty Bay is a physics game that explore EPhysics amazing features
@@ -47,7 +47,7 @@ Escape from Booty Bay is a physics game that explore EPhysics amazing features
 
 
 %files 
-%{_libdir}/efbb_ql.so
+#%{_libdir}/efbb_ql.so
 %doc AUTHORS COPYING_FONTS COPYING_SOUNDS COPYING_ARTS INSTALL README TODO
 %{_bindir}/*
 %{_datadir}/efbb/*
