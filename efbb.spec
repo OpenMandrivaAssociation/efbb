@@ -29,7 +29,7 @@ BuildRequires:	geneet
 Requires:       e
 Requires:	efl
 Requires:	geneet
-Requires:	libetrophy0
+#Requires:	libetrophy0
 
 %description
 Escape from Booty Bay is a physics game that explore EPhysics amazing features
