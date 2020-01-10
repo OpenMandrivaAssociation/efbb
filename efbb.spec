@@ -30,7 +30,7 @@ Escape from Booty Bay is a physics game that explore EPhysics amazing features
 
 %prep
 %setup -qn %{name}
-%apply_patches
+%autopatch -p1
 
 %build
 %configure2_5x --disable-static
