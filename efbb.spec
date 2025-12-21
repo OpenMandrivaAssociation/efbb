@@ -11,6 +11,11 @@ License:	BSD
 Group:		System/Libraries
 URL:		https://git.enlightenment.org/games/efbb.git
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  edje
 BuildRequires:  pkgconfig(elementary)
 BuildRequires:  pkgconfig(evas)
